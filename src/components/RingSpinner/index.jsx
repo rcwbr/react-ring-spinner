@@ -2,35 +2,35 @@ import React from 'react'
 
 class RingSpinner extends React.Component {
 	render () {
-		const color1 = this.props.color1 ?
-			this.props.color1
-		 	: 'white'
-		const color2 = this.props.color2 ?
-			this.props.color2
-		 	: 'white'
+		const ring1Color = this.props.ring1Color ?
+			this.props.ring1Color
+			: 'white'
+		const ring2Color = this.props.ring2Color ?
+			this.props.ring2Color
+			: 'white'
 		const backgroundColor = this.props.backgroundColor ?
 			this.props.backgroundColor
 			: 'rgba(0, 0, 0, 0.9)'
-		const strokeWidth = this.props.strokeWidth ?
-		 	this.props.strokeWidth
-			: 3
-		const opacity1 = this.props.opacity1 ?
-		 	this.props.opacity1
+		const ringsStrokeWidth = this.props.ringsStrokeWidth ?
+			this.props.ringsStrokeWidth
+			: '3px'
+		const ringsOpacityMax = this.props.ringsOpacityMax ?
+			this.props.ringsOpacityMax
 			: 0.9
-		const opacity2 = this.props.opacity2 ?
-		 	this.props.opacity2
+		const ringsOpacityMin = this.props.ringsOpacityMin ?
+			this.props.ringsOpacityMin
 			: 0.3
 		const duration = this.props.duration ?
-		 	this.props.duration
+			this.props.duration
 			: '1s'
-		const opacityStartAdjust = this.props.opacityStartAdjust ?
-		 	this.props.opacityStartAdjust
+		const opacityAnimationDelay = this.props.opacityAnimationDelay ?
+			this.props.opacityAnimationDelay
 			: '0.35s'
-		const circleRadius1 = this.props.circleRadius1 ?
-		 	this.props.circleRadius1
+		const ringRadiusMin = this.props.ringRadiusMin ?
+			this.props.ringRadiusMin
 			: 30
-		const circleRadius2 = this.props.circleRadius2 ?
-		 	this.props.circleRadius2
+		const ringRadiusMax = this.props.ringRadiusMax ?
+			this.props.ringRadiusMax
 			: 45
 		const keySplinesOut = this.props.keySplinesOut ?
 			this.props.keySplinesOut
@@ -54,19 +54,19 @@ class RingSpinner extends React.Component {
 				<circle
 					cx='50'
 					cy='50'
-					r={circleRadius1}
-					stroke={color1}
-					opacity={opacity1}
-					strokeWidth={strokeWidth}
+					r={ringRadiusMin}
+					stroke={ring1Color}
+					opacity={ringsOpacityMax}
+					ringsStrokeWidth={ringsStrokeWidth}
 					fill='none'
 				>
 					<animate
 						attributeName='r'
-						from={circleRadius1}
-						to={circleRadius1}
+						from={ringRadiusMin}
+						to={ringRadiusMin}
 						dur={duration}
 						calcMode='spline'
-						values={`${circleRadius1}; ${circleRadius2}; ${circleRadius1};`}
+						values={`${ringRadiusMin}; ${ringRadiusMax}; ${ringRadiusMin};`}
 						keyTimes='0; 0.5; 1'
 						keySplines={`${keySplinesOut};
 												${keySplinesIn}`}
@@ -75,34 +75,34 @@ class RingSpinner extends React.Component {
 					<animate
 						attributeType='CSS'
 						attributeName='opacity'
-						from={opacity1}
-						to={opacity1}
+						from={ringsOpacityMax}
+						to={ringsOpacityMax}
 						dur={duration}
 						calcMode='spline'
-						values={`${opacity1}; ${opacity2}; ${opacity1};`}
+						values={`${ringsOpacityMax}; ${ringsOpacityMin}; ${ringsOpacityMax};`}
 						keyTimes='0; 0.5; 1'
 						keySplines={`${keySplinesOut};
 												${keySplinesIn}`}
-						begin={opacityStartAdjust}
+						begin={opacityAnimationDelay}
 						repeatCount='indefinite'
 					/>
 				</circle>
 				<circle
 					cx='50'
 					cy='50'
-					r={circleRadius2}
-					stroke={color2}
-					opacity={opacity2}
-					strokeWidth={strokeWidth}
+					r={ringRadiusMax}
+					stroke={ring2Color}
+					opacity={ringsOpacityMin}
+					ringsStrokeWidth={ringsStrokeWidth}
 					fill='none'
 				>
 					<animate
 						attributeName='r'
-						from={circleRadius2}
-						to={circleRadius2}
+						from={ringRadiusMax}
+						to={ringRadiusMax}
 						dur={duration}
 						calcMode='spline'
-						values={`${circleRadius2}; ${circleRadius1}; ${circleRadius2};`}
+						values={`${ringRadiusMax}; ${ringRadiusMin}; ${ringRadiusMax};`}
 						keyTimes='0; 0.5; 1'
 						keySplines={`${keySplinesIn};
 												${keySplinesOut}`}
@@ -111,15 +111,15 @@ class RingSpinner extends React.Component {
 					<animate
 						attributeType='CSS'
 						attributeName='opacity'
-						from={opacity2}
-						to={opacity2}
+						from={ringsOpacityMin}
+						to={ringsOpacityMin}
 						dur={duration}
 						calcMode='spline'
-						values={`${opacity2}; ${opacity1}; ${opacity2};`}
+						values={`${ringsOpacityMin}; ${ringsOpacityMax}; ${ringsOpacityMin};`}
 						keyTimes='0; 0.5; 1'
 						keySplines={`${keySplinesIn};
 												${keySplinesOut}`}
-						begin={opacityStartAdjust}
+						begin={opacityAnimationDelay}
 						repeatCount='indefinite'
 					/>
 				</circle>
