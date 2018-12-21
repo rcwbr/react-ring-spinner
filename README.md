@@ -23,7 +23,7 @@ TODO: Put more badges here.
 - [Install](#install)
 - [Usage](#usage)
 - [API](#api)
-	- [Key splines explanation](#key-splines-animation)
+	- [Key splines explanation](#key-splines-explanation)
 - [Maintainers](#maintainers)
 - [Contribute](#contribute)
 - [License](#license)
@@ -103,8 +103,8 @@ Property | Type | Default | Description
 :--------|:----:|:-------:|:-----------
 backgroundColor | string -- CSS color | `'rgba(0, 0, 0, 0.9)'` | The background color of the spinner SVG element.
 duration | string -- CSS time | `'1s'` | Time length of one full spinner animation, i.e. the time in which one ring grows (or shrinks), and then reverses and returns to its original radius. Depending on the desired animation, `opacityAnimationDelay` should be scaled proportionally with this property.
-keySplinesIn | string -- [cubic-bezier](http://cubic-bezier.com) control points | `'0.6 0 0.2 1'` | The control points which define the progress of the radius and opacity animations over time, during the phase in which the radius grows and, delayed by `opacityAnimationDelay`, the opacity reduces. See [Key splines explanation](#key-splines-animation) below for details of how this property affects the animations.
-keySplinesOut | string -- [cubic-bezier](http://cubic-bezier.com) control points | `'0.8 0 0.2 1'` | The control points which define the progress of the radius and opacity animations over time, during the phase in which the radius shrinks and, delayed by `opacityAnimationDelay`, the opacity increases. See [Key splines explanation](#key-splines-animation) below for details of how this property affects the animations.
+keySplinesIn | string -- [cubic-bezier](http://cubic-bezier.com) control points | `'0.6 0 0.2 1'` | The control points which define the progress of the radius and opacity animations over time, during the phase in which the radius grows and, delayed by `opacityAnimationDelay`, the opacity reduces. See [Key splines explanation](#key-splines-explanation) below for details of how this property affects the animations.
+keySplinesOut | string -- [cubic-bezier](http://cubic-bezier.com) control points | `'0.8 0 0.2 1'` | The control points which define the progress of the radius and opacity animations over time, during the phase in which the radius shrinks and, delayed by `opacityAnimationDelay`, the opacity increases. See [Key splines explanation](#key-splines-explanation) below for details of how this property affects the animations.
 opacityAnimationDelay | string -- CSS time | `'0.35s'` | The delay between ring radius and ring opacity animations. With default properties, this causes the rings to become nearly opaque before growing (and nearly translucent before shrinking), rather than changing simultaneously. To maintain this effect, this property should be scaled proportionally with any change to `duration`.
 ringColor1 | string -- CSS color | `'white'` | The color of the ring that is on the inside of the spinner when the animation starts.
 ringColor2 | string -- CSS color | `'white'` | The color of the ring that is on the outside of the spinner when the animation starts.
@@ -114,7 +114,7 @@ ringsRadiusMax | number | `45` | The maximum radius, as a percent of the SVG can
 ringsRadiusMin | number | `30` | The minimum radius, as a percent of the SVG canvas, to which the rings will shrink.
 ringsStrokeWidth | string -- CSS length | `'3px'` | The stroke width of the spinner rings.
 
-### Key spline explanation
+### Key splines explanation
 By default, the radius and opacity attributes are animated to progress not linearly, but rather following a function mapping animation time (x) values to attribute progress (y) values. Within one animation, the attributes range from the given start, to the given end, _and back_ -- this is defined by a `values='[attribute start]; [attribute end]; [attribute start];'` animation property. Additionally, the animations reach the start, end, and start (again) values at time 0, time `0.5 * duration`, and time `1 * duration`, respectively -- this is defined by a `keyTimes='0; 0.5; 1'` animation property.
 
 The value of the animated attributes at times between the `keyTimes` are given by [cubic B&eacute;zier curves](https://en.wikipedia.org/wiki/Bézier_curve#Cubic_Bézier_curves) -- one curve between the 0 and 0.5 times, and another between the 0.5 and 1 times. The `keySplinesOut` and `keySplinesIn` properties define one curve each, applied respectively to the 0-0.5 duration and the 0.5-1 duration for the first ring (see the `ringColor1` property), and vice-versa for the second ring.
