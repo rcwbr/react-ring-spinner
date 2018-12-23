@@ -3,7 +3,7 @@
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![Known Vulnerabilities](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner/badge.svg?style=flat-square)](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner)
 TODO: Put more badges here.
 
-![Example RingSpinner GIF](https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/feature/fix_example_spinner/docs/example-spinner.gif)
+![Example RingSpinner GIF](https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/feature/fix_example_spinner/docs/example-spinner.gif =300x300)
 
 > The `react-ring-spinner` package defines a RingSpinner component, which renders an SVG circle loading spinner, animated using SVG animations.
 
@@ -38,16 +38,7 @@ render () {
 }
 ```
 Which renders this:
-<svg style="width: 300px; height: 300px; background-color: rgba(0, 0, 0, 0.901961);" version="1.1" viewBox="0 0 100 100">
-	<circle cx="50" cy="50" r="15" stroke="white" opacity="0.9" stroke-width="1.8" fill="none">
-		<animate attributeName="r" from="15" to="15" dur="1s" calcMode="spline" values="15; 22; 15;" keyTimes="0; 0.5; 1" keySplines="0.8 0 0.2 1; 0.6 0 0.2 1" repeatCount="indefinite"></animate>
-		<animate attributeType="CSS" attributeName="opacity" from="0.9" to="0.9" dur="1s" calcMode="spline" values="0.9; 0.3; 0.9;" keyTimes="0; 0.5; 1" keySplines="0.8 0 0.2 1; 0.6 0 0.2 1" begin="0.35s" repeatCount="indefinite"></animate>
-	</circle>
-	<circle cx="50" cy="50" r="22" stroke="white" opacity="0.3" stroke-width="1.8" fill="none">
-		<animate attributeName="r" from="22" to="22" dur="1s" calcMode="spline" values="22; 15; 22;" keyTimes="0; 0.5; 1" keySplines="0.6 0 0.2 1; 0.8 0 0.2 1" repeatCount="indefinite"></animate>
-		<animate attributeType="CSS" attributeName="opacity" from="0.3" to="0.3" dur="1s" calcMode="spline" values="0.3; 0.9; 0.3;" keyTimes="0; 0.5; 1" keySplines="0.6 0 0.2 1; 0.8 0 0.2 1" begin="0.35s" repeatCount="indefinite"></animate>
-	</circle>
-</svg>
+![Example RingSpinner GIF](https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/feature/fix_example_spinner/docs/example-spinner.gif =100x100)
 
 ### Usage with property overrides:
 ``` JS
