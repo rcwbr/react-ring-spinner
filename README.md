@@ -3,7 +3,7 @@
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![Known Vulnerabilities](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner/badge.svg?style=flat-square)](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner)
 TODO: Put more badges here.
 
-![Example RingSpinner GIF](https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/feature/fix_example_spinner/docs/example-spinner.gif?s=1)
+<img src="https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/feature/fix_example_spinner/docs/example-spinner.gif" title="Example RingSpinner GIF" width="300" height="300" />
 
 > The `react-ring-spinner` package defines a RingSpinner component, which renders an SVG circle loading spinner, animated using SVG animations.
 
@@ -38,7 +38,7 @@ render () {
 }
 ```
 Which renders this:
-![Example RingSpinner GIF](https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/feature/fix_example_spinner/docs/example-spinner.gif?s=1)
+<img src="https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/feature/fix_example_spinner/docs/example-spinner.gif" title="Example RingSpinner GIF" width="100" height="100" />
 
 ### Usage with property overrides:
 ``` JS
