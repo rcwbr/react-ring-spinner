@@ -38,7 +38,8 @@ render () {
 }
 ```
 Which renders this:
-<img src="https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/feature/fix_example_spinner/docs/example-spinner.gif" title="Example RingSpinner GIF" width="100" height="100" />
+
+<img src="https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/feature/fix_example_spinner/docs/example-spinner.gif" title="Example RingSpinner GIF" width="200" height="200" />
 
 ### Usage with property overrides:
 ``` JS
