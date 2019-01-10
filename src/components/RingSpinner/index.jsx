@@ -39,7 +39,6 @@ class RingSpinner extends React.Component {
 			this.props.ringsStrokeWidth
 			: '3px'
 
-		const spinnerID = Math.floor(Math.random() * 1000)
 		return (
 			<svg
 				version='1.1'
