@@ -40,7 +40,89 @@ class RingSpinner extends React.Component {
 			: '3px'
 
 		return (
-			<div>Test</div>
+			<svg
+				version='1.1'
+				style={{
+					width: '100%',
+					height: '100%',
+					backgroundColor: backgroundColor
+				}}
+				viewBox='0 0 100 100'
+			>
+
+				<circle
+					cx='50'
+					cy='50'
+					r={ringRadiusMin}
+					stroke={ring1Color}
+					opacity={ringsOpacityMax}
+					ringsStrokeWidth={ringsStrokeWidth}
+					fill='none'
+				>
+					<animate
+						attributeName='r'
+						from={ringRadiusMin}
+						to={ringRadiusMin}
+						dur={duration}
+						calcMode='spline'
+						values={`${ringRadiusMin}; ${ringRadiusMax}; ${ringRadiusMin};`}
+						keyTimes='0; 0.5; 1'
+						keySplines={`${keySplinesOut};
+												${keySplinesIn}`}
+						repeatCount='indefinite'
+					/>
+					<animate
+						attributeType='CSS'
+						attributeName='opacity'
+						from={ringsOpacityMax}
+						to={ringsOpacityMax}
+						dur={duration}
+						calcMode='spline'
+						values={`${ringsOpacityMax}; ${ringsOpacityMin}; ${ringsOpacityMax};`}
+						keyTimes='0; 0.5; 1'
+						keySplines={`${keySplinesOut};
+												${keySplinesIn}`}
+						begin={opacityAnimationDelay}
+						repeatCount='indefinite'
+					/>
+				</circle>
+				<circle
+					cx='50'
+					cy='50'
+					r={ringRadiusMax}
+					stroke={ring2Color}
+					opacity={ringsOpacityMin}
+					ringsStrokeWidth={ringsStrokeWidth}
+					fill='none'
+				>
+					<animate
+						attributeName='r'
+						from={ringRadiusMax}
+						to={ringRadiusMax}
+						dur={duration}
+						calcMode='spline'
+						values={`${ringRadiusMax}; ${ringRadiusMin}; ${ringRadiusMax};`}
+						keyTimes='0; 0.5; 1'
+						keySplines={`${keySplinesIn};
+												${keySplinesOut}`}
+						repeatCount='indefinite'
+					/>
+					<animate
+						attributeType='CSS'
+						attributeName='opacity'
+						from={ringsOpacityMin}
+						to={ringsOpacityMin}
+						dur={duration}
+						calcMode='spline'
+						values={`${ringsOpacityMin}; ${ringsOpacityMax}; ${ringsOpacityMin};`}
+						keyTimes='0; 0.5; 1'
+						keySplines={`${keySplinesIn};
+												${keySplinesOut}`}
+						begin={opacityAnimationDelay}
+						repeatCount='indefinite'
+					/>
+				</circle>
+			</svg>
 		)
 	}
 }
