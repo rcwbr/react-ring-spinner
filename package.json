@@ -5,7 +5,7 @@
 	"main": "build/index.js",
 	"scripts": {
 		"start": "npm link && webpack --watch",
-		"build": "webpack --profile --json | grep identifier && webpack --mode production && npm link"
+		"build": "webpack --mode production && npm link"
 	},
 	"repository": {
 		"type": "git",
