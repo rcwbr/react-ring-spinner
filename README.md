@@ -1,8 +1,6 @@
 # react-ring-spinner
 
-[![Build Status](https://travis-ci.org/rcieoktgieke/react-ring-spinner.svg?branch=master)](https://travis-ci.org/rcieoktgieke/react-ring-spinner)
-[![Known Vulnerabilities](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner/badge.svg)](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![Known Vulnerabilities](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner/badge.svg?style=flat-square)](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner)
 TODO: Put more badges here.
 
 <img src="https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/master/docs/example-spinner.gif" title="Example RingSpinner GIF" width="300" height="300" />
