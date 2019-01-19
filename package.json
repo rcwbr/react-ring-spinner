@@ -5,7 +5,8 @@
 	"main": "build/index.js",
 	"scripts": {
 		"start": "npm link && webpack --watch",
-		"build": "webpack --mode production && npm link"
+		"build": "webpack --mode production && npm link",
+		"test": "jest"
 	},
 	"repository": {
 		"type": "git",
@@ -24,7 +25,11 @@
 		"@babel/core": "^7.2.2",
 		"@babel/preset-env": "^7.2.3",
 		"@babel/preset-react": "^7.0.0",
+		"babel-core": "^7.0.0-bridge.0",
+		"babel-jest": "^23.6.0",
 		"babel-loader": "^8.0.5",
+		"jest": "^23.6.0",
+		"regenerator-runtime": "^0.13.1",
 		"standard": "^11.0.0",
 		"webpack": "^4.15.1",
 		"webpack-cli": "^3.0.8"
