@@ -5,15 +5,6 @@ node_js:
 install:
   - npm install
 
-stages:
-  - build
-  - test
-
-jobs:
-  include:
-    - stage: build
-      name: "Build RingSpinner"
-      script: npm run build
-    - stage: test
-      name: "Test RingSpinner"
-      script: npm run test
+script:
+  - npm run build
+  - npm run test
