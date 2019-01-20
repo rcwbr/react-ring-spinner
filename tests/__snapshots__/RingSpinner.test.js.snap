@@ -18,8 +18,8 @@ exports[`renders with default config 1`] = `
     fill="none"
     opacity={0.9}
     r={30}
-    ringsStrokeWidth="3px"
     stroke="white"
+    strokeWidth="3px"
   >
     <animate
       attributeName="r"
@@ -27,7 +27,7 @@ exports[`renders with default config 1`] = `
       dur="1s"
       from={30}
       keySplines="0.8 0 0.2 1;
-												0.6 0 0.2 1"
+                        0.6 0 0.2 1"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={30}
@@ -41,7 +41,7 @@ exports[`renders with default config 1`] = `
       dur="1s"
       from={0.9}
       keySplines="0.8 0 0.2 1;
-												0.6 0 0.2 1"
+                      0.6 0 0.2 1"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={0.9}
@@ -54,8 +54,8 @@ exports[`renders with default config 1`] = `
     fill="none"
     opacity={0.3}
     r={45}
-    ringsStrokeWidth="3px"
     stroke="white"
+    strokeWidth="3px"
   >
     <animate
       attributeName="r"
@@ -63,7 +63,7 @@ exports[`renders with default config 1`] = `
       dur="1s"
       from={45}
       keySplines="0.6 0 0.2 1;
-												0.8 0 0.2 1"
+                        0.8 0 0.2 1"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={45}
@@ -77,7 +77,7 @@ exports[`renders with default config 1`] = `
       dur="1s"
       from={0.3}
       keySplines="0.6 0 0.2 1;
-												0.8 0 0.2 1"
+                        0.8 0 0.2 1"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={0.3}
@@ -105,8 +105,8 @@ exports[`renders with explicit default config 1`] = `
     fill="none"
     opacity={0.9}
     r={30}
-    ringsStrokeWidth="3px"
     stroke="white"
+    strokeWidth="3px"
   >
     <animate
       attributeName="r"
@@ -114,7 +114,7 @@ exports[`renders with explicit default config 1`] = `
       dur="1s"
       from={30}
       keySplines="0.8 0 0.2 1;
-												0.6 0 0.2 1"
+                        0.6 0 0.2 1"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={30}
@@ -128,7 +128,7 @@ exports[`renders with explicit default config 1`] = `
       dur="1s"
       from={0.9}
       keySplines="0.8 0 0.2 1;
-												0.6 0 0.2 1"
+                      0.6 0 0.2 1"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={0.9}
@@ -141,8 +141,8 @@ exports[`renders with explicit default config 1`] = `
     fill="none"
     opacity={0.3}
     r={45}
-    ringsStrokeWidth="3px"
     stroke="white"
+    strokeWidth="3px"
   >
     <animate
       attributeName="r"
@@ -150,7 +150,7 @@ exports[`renders with explicit default config 1`] = `
       dur="1s"
       from={45}
       keySplines="0.6 0 0.2 1;
-												0.8 0 0.2 1"
+                        0.8 0 0.2 1"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={45}
@@ -164,7 +164,7 @@ exports[`renders with explicit default config 1`] = `
       dur="1s"
       from={0.3}
       keySplines="0.6 0 0.2 1;
-												0.8 0 0.2 1"
+                        0.8 0 0.2 1"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={0.3}
@@ -192,8 +192,8 @@ exports[`renders with tweaked config values 1`] = `
     fill="none"
     opacity={1}
     r={40}
-    ringsStrokeWidth="1px"
     stroke="red"
+    strokeWidth="1px"
   >
     <animate
       attributeName="r"
@@ -201,7 +201,7 @@ exports[`renders with tweaked config values 1`] = `
       dur="2s"
       from={40}
       keySplines="0.9 0.1 0.3 0.9;
-												0.4 0.1 0.1 0.9"
+                        0.4 0.1 0.1 0.9"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={40}
@@ -215,7 +215,7 @@ exports[`renders with tweaked config values 1`] = `
       dur="2s"
       from={1}
       keySplines="0.9 0.1 0.3 0.9;
-												0.4 0.1 0.1 0.9"
+                      0.4 0.1 0.1 0.9"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={1}
@@ -228,8 +228,8 @@ exports[`renders with tweaked config values 1`] = `
     fill="none"
     opacity={0.7}
     r={50}
-    ringsStrokeWidth="1px"
     stroke="rgba(255, 0, 0, 0.9)"
+    strokeWidth="1px"
   >
     <animate
       attributeName="r"
@@ -237,7 +237,7 @@ exports[`renders with tweaked config values 1`] = `
       dur="2s"
       from={50}
       keySplines="0.4 0.1 0.1 0.9;
-												0.9 0.1 0.3 0.9"
+                        0.9 0.1 0.3 0.9"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={50}
@@ -251,7 +251,7 @@ exports[`renders with tweaked config values 1`] = `
       dur="2s"
       from={0.7}
       keySplines="0.4 0.1 0.1 0.9;
-												0.9 0.1 0.3 0.9"
+                        0.9 0.1 0.3 0.9"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
       to={0.7}
