@@ -191,7 +191,7 @@ exports[`renders with tweaked config values 1`] = `
     cy="50"
     fill="none"
     opacity={1}
-    r={30}
+    r={40}
     ringsStrokeWidth="1px"
     stroke="red"
   >
@@ -199,13 +199,13 @@ exports[`renders with tweaked config values 1`] = `
       attributeName="r"
       calcMode="spline"
       dur="2s"
-      from={30}
+      from={40}
       keySplines="0.9 0.1 0.3 0.9;
 												0.4 0.1 0.1 0.9"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
-      to={30}
-      values="30; 45; 30;"
+      to={40}
+      values="40; 50; 40;"
     />
     <animate
       attributeName="opacity"
@@ -227,7 +227,7 @@ exports[`renders with tweaked config values 1`] = `
     cy="50"
     fill="none"
     opacity={0.7}
-    r={45}
+    r={50}
     ringsStrokeWidth="1px"
     stroke="rgba(255, 0, 0, 0.9)"
   >
@@ -235,13 +235,13 @@ exports[`renders with tweaked config values 1`] = `
       attributeName="r"
       calcMode="spline"
       dur="2s"
-      from={45}
+      from={50}
       keySplines="0.4 0.1 0.1 0.9;
 												0.9 0.1 0.3 0.9"
       keyTimes="0; 0.5; 1"
       repeatCount="indefinite"
-      to={45}
-      values="45; 30; 45;"
+      to={50}
+      values="50; 40; 50;"
     />
     <animate
       attributeName="opacity"
