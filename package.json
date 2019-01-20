@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack --mode production && npm link",
     "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
-    "lint-fix": "eslint --fix *.js* src/**/*.js* tests/*.js*",
-    "lint": "eslint *.js* src/**/*.js* tests/*.js*",
+    "lint-fix": "eslint --fix .",
+    "lint": "eslint .",
     "start": "npm link && webpack --watch",
     "test": "jest",
     "test-snapshot": "jest --updateSnapshot"
