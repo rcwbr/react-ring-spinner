@@ -14,7 +14,8 @@ module.exports = {
 				include: path.resolve(__dirname, 'src'),
 				exclude: [
 					path.resolve(__dirname, 'build'),
-					path.resolve(__dirname, 'node_modules')
+					path.resolve(__dirname, 'node_modules'),
+					path.resolve(__dirname, 'tests')
 				],
 				use: {
 					loader: 'babel-loader',

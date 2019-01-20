@@ -29,11 +29,11 @@ class RingSpinner extends React.Component {
 		const ringsOpacityMin = this.props.ringsOpacityMin ?
 			this.props.ringsOpacityMin
 			: 0.3
-		const ringRadiusMax = this.props.ringRadiusMax ?
-			this.props.ringRadiusMax
+		const ringsRadiusMax = this.props.ringsRadiusMax ?
+			this.props.ringsRadiusMax
 			: 45
-		const ringRadiusMin = this.props.ringRadiusMin ?
-			this.props.ringRadiusMin
+		const ringsRadiusMin = this.props.ringsRadiusMin ?
+			this.props.ringsRadiusMin
 			: 30
 		const ringsStrokeWidth = this.props.ringsStrokeWidth ?
 			this.props.ringsStrokeWidth
@@ -53,7 +53,7 @@ class RingSpinner extends React.Component {
 				<circle
 					cx='50'
 					cy='50'
-					r={ringRadiusMin}
+					r={ringsRadiusMin}
 					stroke={ring1Color}
 					opacity={ringsOpacityMax}
 					ringsStrokeWidth={ringsStrokeWidth}
@@ -61,11 +61,11 @@ class RingSpinner extends React.Component {
 				>
 					<animate
 						attributeName='r'
-						from={ringRadiusMin}
-						to={ringRadiusMin}
+						from={ringsRadiusMin}
+						to={ringsRadiusMin}
 						dur={duration}
 						calcMode='spline'
-						values={`${ringRadiusMin}; ${ringRadiusMax}; ${ringRadiusMin};`}
+						values={`${ringsRadiusMin}; ${ringsRadiusMax}; ${ringsRadiusMin};`}
 						keyTimes='0; 0.5; 1'
 						keySplines={`${keySplinesOut};
 												${keySplinesIn}`}
@@ -89,7 +89,7 @@ class RingSpinner extends React.Component {
 				<circle
 					cx='50'
 					cy='50'
-					r={ringRadiusMax}
+					r={ringsRadiusMax}
 					stroke={ring2Color}
 					opacity={ringsOpacityMin}
 					ringsStrokeWidth={ringsStrokeWidth}
@@ -97,11 +97,11 @@ class RingSpinner extends React.Component {
 				>
 					<animate
 						attributeName='r'
-						from={ringRadiusMax}
-						to={ringRadiusMax}
+						from={ringsRadiusMax}
+						to={ringsRadiusMax}
 						dur={duration}
 						calcMode='spline'
-						values={`${ringRadiusMax}; ${ringRadiusMin}; ${ringRadiusMax};`}
+						values={`${ringsRadiusMax}; ${ringsRadiusMin}; ${ringsRadiusMax};`}
 						keyTimes='0; 0.5; 1'
 						keySplines={`${keySplinesIn};
 												${keySplinesOut}`}

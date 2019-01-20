@@ -1,5 +1,5 @@
 import React from 'react'
-import RingSpinner from '../build/index.js'
+import RingSpinner from '../src/components/RingSpinner/index.jsx'
 import renderer from 'react-test-renderer'
 
 test('renders with default config', () => {
@@ -67,33 +67,6 @@ test('renders with tweaked config values', () => {
 			ringsRadiusMax={50}
 			ringsRadiusMin={40}
 			ringsStrokeWidth={'1px'}
-		/>)
-		.toJSON()
-	expect(spinner).toMatchSnapshot()
-})
-
-test('renders with default config', () => {
-	const spinner = renderer
-		.create(<RingSpinner />)
-		.toJSON()
-	expect(spinner).toMatchSnapshot()
-})
-
-test('renders with explicit default config', () => {
-	const spinner = renderer
-		.create(<RingSpinner
-			backgroundColor={'rgba(0, 0, 0, 0.9)'}
-			duration={'1s'}
-			keySplinesIn={'0.6 0 0.2 1'}
-			keySplinesOut={'0.8 0 0.2 1'}
-			opacityAnimationDelay={'0.35s'}
-			ring1Color={'white'}
-			ring2Color={'white'}
-			ringsOpacityMax={0.9}
-			ringsOpacityMin={0.3}
-			ringsRadiusMax={45}
-			ringsRadiusMin={30}
-			ringsStrokeWidth={'3px'}
 		/>)
 		.toJSON()
 	expect(spinner).toMatchSnapshot()
