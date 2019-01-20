@@ -16,8 +16,9 @@ TODO: Put more badges here.
 
 - [Install](#install)
 - [Usage](#usage)
+- [Development](#development)
 - [API](#api)
-	- [Key splines explanation](#key-splines-explanation)
+  - [Key splines explanation](#key-splines-explanation)
 - [Maintainers](#maintainers)
 - [Contribute](#contribute)
 - [License](#license)
@@ -37,7 +38,7 @@ See [react-element-placeholder Placeholder component](https://github.com/rcieokt
 import RingSpinner from 'react-ring-spinner'
 
 render () {
-	return <RingSpinner />
+  return <RingSpinner />
 }
 ```
 Which renders this:
@@ -49,14 +50,18 @@ Which renders this:
 import RingSpinner from 'react-ring-spinner'
 
 render () {
-	return <RingSpinner
-		// option={value}
-		// option={value}
-		// ...
-	/>
+  return <RingSpinner
+    // option={value}
+    // option={value}
+    // ...
+  />
 }
 ```
 See the [API](#api) for documentation of all properties.
+
+## Development
+
+To set up for development of this package with [Atom](atom editor python), install the `linter-eslint` plugin, and its dependencies.
 
 ## API
 
@@ -65,20 +70,20 @@ Example usage with all properties overridden. The values shown are the defaults.
 import RingSpinner from 'react-ring-spinner'
 
 render () {
-	return <RingSpinner
-		backgroundColor={'rgba(0, 0, 0, 0.9)'}
-		duration={'1s'}
-		keySplinesIn={'0.6 0 0.2 1'}
-		keySplinesOut={'0.8 0 0.2 1'}
-		opacityAnimationDelay={'0.35s'}
-		ring1Color={'white'}
-		ring2Color={'white'}
-		ringsOpacityMax={0.9}
-		ringsOpacityMin={0.3}
-		ringsRadiusMax={45}
-		ringsRadiusMin={30}
-		ringsStrokeWidth={'3px'}
-	/>
+  return <RingSpinner
+    backgroundColor={'rgba(0, 0, 0, 0.9)'}
+    duration={'1s'}
+    keySplinesIn={'0.6 0 0.2 1'}
+    keySplinesOut={'0.8 0 0.2 1'}
+    opacityAnimationDelay={'0.35s'}
+    ring1Color={'white'}
+    ring2Color={'white'}
+    ringsOpacityMax={0.9}
+    ringsOpacityMin={0.3}
+    ringsRadiusMax={45}
+    ringsRadiusMin={30}
+    ringsStrokeWidth={'3px'}
+  />
 }
 ```
 
