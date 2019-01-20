@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders with default config 1`] = `
+exports[`built component renders with default config 1`] = `
 <svg
   style={
     Object {
@@ -87,7 +87,7 @@ exports[`renders with default config 1`] = `
 </svg>
 `;
 
-exports[`renders with default config 2`] = `
+exports[`built component renders with default config 2`] = `
 <svg
   style={
     Object {
@@ -174,7 +174,7 @@ exports[`renders with default config 2`] = `
 </svg>
 `;
 
-exports[`renders with explicit default config 1`] = `
+exports[`built component renders with explicit default config 1`] = `
 <svg
   style={
     Object {
@@ -261,7 +261,7 @@ exports[`renders with explicit default config 1`] = `
 </svg>
 `;
 
-exports[`renders with explicit default config 2`] = `
+exports[`built component renders with explicit default config 2`] = `
 <svg
   style={
     Object {
@@ -348,7 +348,7 @@ exports[`renders with explicit default config 2`] = `
 </svg>
 `;
 
-exports[`renders with tweaked config values 1`] = `
+exports[`built component renders with tweaked config values 1`] = `
 <svg
   style={
     Object {
