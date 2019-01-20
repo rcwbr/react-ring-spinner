@@ -4,10 +4,11 @@
 	"description": "React component to display a SVG ring spinner",
 	"main": "build/index.js",
 	"scripts": {
-		"start": "npm link && webpack --watch",
 		"build": "webpack --mode production && npm link",
-		"test": "jest",
-		"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+		"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+		"lint": "eslint *.js* src/**/*.js* tests/*.js*",
+		"start": "npm link && webpack --watch",
+		"test": "jest"
 	},
 	"repository": {
 		"type": "git",
@@ -30,6 +31,14 @@
 		"babel-jest": "^23.6.0",
 		"babel-loader": "^8.0.5",
 		"coveralls": "^3.0.2",
+		"eslint": "^5.12.1",
+		"eslint-config-standard": "^12.0.0",
+		"eslint-config-standard-react": "^7.0.2",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-node": "^8.0.1",
+		"eslint-plugin-promise": "^4.0.1",
+		"eslint-plugin-react": "^7.12.4",
+		"eslint-plugin-standard": "^4.0.0",
 		"jest": "^23.6.0",
 		"react-test-renderer": "^16.7.0",
 		"regenerator-runtime": "^0.13.1",
