@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/rcieoktgieke/react-ring-spinner.svg?branch=master)](https://travis-ci.org/rcieoktgieke/react-ring-spinner)
 [![Coverage Status](https://coveralls.io/repos/github/rcieoktgieke/react-ring-spinner/badge.svg?branch=feature%2Ftravis_coveralls_coverage)](https://coveralls.io/github/rcieoktgieke/react-ring-spinner?branch=feature%2Ftravis_coveralls_coverage)
 [![Known Vulnerabilities](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner/badge.svg?style=flat-square)](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 TODO: Put more badges here.
 
