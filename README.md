@@ -61,7 +61,16 @@ See the [API](#api) for documentation of all properties.
 
 ## Development
 
-To set up for development of this package with [Atom](atom editor python), install the `linter-eslint` plugin, and its dependencies.
+To set up to lint this package with [Atom](atom editor python):
+* Install the `linter-eslint` plugin, and its dependencies.
+* Open your Atom `config.cson` by pressing `cmd + shift + p` and typing 'config'
+* Under `linter-eslint`, add `autofix: fixOnSave: true`
+  * Now it should look like this:
+  ```JS
+    "linter-eslint":
+      autofix:
+        fixOnSave: true
+  ```
 
 ## API
 
