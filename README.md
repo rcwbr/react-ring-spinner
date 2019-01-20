@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/rcieoktgieke/react-ring-spinner.svg?branch=master)](https://travis-ci.org/rcieoktgieke/react-ring-spinner)
 [![Coverage Status](https://coveralls.io/repos/github/rcieoktgieke/react-ring-spinner/badge.svg?branch=feature%2Ftravis_coveralls_coverage)](https://coveralls.io/github/rcieoktgieke/react-ring-spinner?branch=feature%2Ftravis_coveralls_coverage)
 [![Known Vulnerabilities](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner/badge.svg?style=flat-square)](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 TODO: Put more badges here.
 
@@ -16,8 +17,9 @@ TODO: Put more badges here.
 
 - [Install](#install)
 - [Usage](#usage)
+- [Development](#development)
 - [API](#api)
-	- [Key splines explanation](#key-splines-explanation)
+  - [Key splines explanation](#key-splines-explanation)
 - [Maintainers](#maintainers)
 - [Contribute](#contribute)
 - [License](#license)
@@ -37,7 +39,7 @@ See [react-element-placeholder Placeholder component](https://github.com/rcieokt
 import RingSpinner from 'react-ring-spinner'
 
 render () {
-	return <RingSpinner />
+  return <RingSpinner />
 }
 ```
 Which renders this:
@@ -49,14 +51,27 @@ Which renders this:
 import RingSpinner from 'react-ring-spinner'
 
 render () {
-	return <RingSpinner
-		// option={value}
-		// option={value}
-		// ...
-	/>
+  return <RingSpinner
+    // option={value}
+    // option={value}
+    // ...
+  />
 }
 ```
 See the [API](#api) for documentation of all properties.
+
+## Development
+
+To set up to lint this package with [Atom](atom editor python):
+* Install the `linter-eslint` plugin, and its dependencies.
+* Open your Atom `config.cson` by pressing `cmd + shift + p` and typing 'config'
+* Under `linter-eslint`, add `autofix: fixOnSave: true`
+  * Now it should look like this:
+  ```JS
+    "linter-eslint":
+      autofix:
+        fixOnSave: true
+  ```
 
 ## API
 
@@ -65,20 +80,20 @@ Example usage with all properties overridden. The values shown are the defaults.
 import RingSpinner from 'react-ring-spinner'
 
 render () {
-	return <RingSpinner
-		backgroundColor={'rgba(0, 0, 0, 0.9)'}
-		duration={'1s'}
-		keySplinesIn={'0.6 0 0.2 1'}
-		keySplinesOut={'0.8 0 0.2 1'}
-		opacityAnimationDelay={'0.35s'}
-		ring1Color={'white'}
-		ring2Color={'white'}
-		ringsOpacityMax={0.9}
-		ringsOpacityMin={0.3}
-		ringsRadiusMax={45}
-		ringsRadiusMin={30}
-		ringsStrokeWidth={'3px'}
-	/>
+  return <RingSpinner
+    backgroundColor={'rgba(0, 0, 0, 0.9)'}
+    duration={'1s'}
+    keySplinesIn={'0.6 0 0.2 1'}
+    keySplinesOut={'0.8 0 0.2 1'}
+    opacityAnimationDelay={'0.35s'}
+    ring1Color={'white'}
+    ring2Color={'white'}
+    ringsOpacityMax={0.9}
+    ringsOpacityMin={0.3}
+    ringsRadiusMax={45}
+    ringsRadiusMin={30}
+    ringsStrokeWidth={'3px'}
+  />
 }
 ```
 
