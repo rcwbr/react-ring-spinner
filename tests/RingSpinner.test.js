@@ -2,14 +2,14 @@ import React from 'react'
 import RingSpinner from '../build/index.js'
 import renderer from 'react-test-renderer'
 
-test('renders with default config', () => {
+test('built component renders with default config', () => {
 	const spinner = renderer
 		.create(<RingSpinner />)
 		.toJSON()
 	expect(spinner).toMatchSnapshot()
 })
 
-test('renders with explicit default config', () => {
+test('built component renders with explicit default config', () => {
 	const spinner = renderer
 		.create(<RingSpinner
 			backgroundColor={'rgba(0, 0, 0, 0.9)'}
@@ -29,7 +29,7 @@ test('renders with explicit default config', () => {
 	expect(spinner).toMatchSnapshot()
 })
 
-test('default config is unchanged', () => {
+test('built component default config is unchanged', () => {
 	const defaultSpinner = renderer
 		.create(<RingSpinner />)
 		.toJSON()
@@ -52,7 +52,7 @@ test('default config is unchanged', () => {
 	expect(defaultSpinner).toEqual(explicitSpinner)
 })
 
-test('renders with tweaked config values', () => {
+test('built component renders with tweaked config values', () => {
 	const spinner = renderer
 		.create(<RingSpinner
 			backgroundColor={'green'}
@@ -72,14 +72,14 @@ test('renders with tweaked config values', () => {
 	expect(spinner).toMatchSnapshot()
 })
 
-test('renders with default config', () => {
+test('built component renders with default config', () => {
 	const spinner = renderer
 		.create(<RingSpinner />)
 		.toJSON()
 	expect(spinner).toMatchSnapshot()
 })
 
-test('renders with explicit default config', () => {
+test('built component renders with explicit default config', () => {
 	const spinner = renderer
 		.create(<RingSpinner
 			backgroundColor={'rgba(0, 0, 0, 0.9)'}
