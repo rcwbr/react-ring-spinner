@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Deprecated
 ### Removed
 ### Fixed
+- v0.1.0 release changelog header [338f06f](https://github.com/rcieoktgieke/react-ring-spinner/commit/338f06f163365cdffc9cb1464422e97ba8e72e71)
 ### Security
 
 [0.1.0] - 2019-01-21
