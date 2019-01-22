@@ -1,5 +1,5 @@
 <!--
-  1: Populate a description immediately below, if desired.
+  1: Populate a description immediately below these directions, if desired.
   2: Open the pull request.
   3: Check the box for any completed items in the checklist below.
   4: Merge the PR only when the entire checklist has been completed.
