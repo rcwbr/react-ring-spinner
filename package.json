@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "React component to display a SVG ring spinner",
   "main": "build/index.js",
+  "files": [
+    "build/index.js"
+  ],
   "scripts": {
     "build": "webpack --mode production && npm link",
     "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
