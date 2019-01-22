@@ -1,12 +1,17 @@
 language: node_js
 node_js:
-  - node
-
+- node
 install:
-  - npm install
-
+- npm install
 script:
-  - npm run lint
-  - npm run build
-  - npm run test
-  - npm run coverage
+- npm run lint
+- npm run build
+- npm run test
+- npm run coverage
+deploy:
+  provider: npm
+  email: npm@weber.lol
+  api_key:
+    secure: XFy+mnsEt+RwS0b6ecD20u4k68ZnGi3BqlmNKG3Maduvy3U/u45BXOVnrQweYHcTGSI5RFxZXjoircXHBbR5AmUhe298SGTQVc0wUcgNzaBeGxqu0b2VRlk52BiraaJU6yJP8IgYSlno/GTTFNjoymHXosxiG+R9aZwMtyaQ4mfbJGtjcTNSI83Xsk/FzRN7ojoMETuZ2uUcG1Igw7wIIK0tb/T9dNPvingrPoNf6c3Vk9h4KLFQMlD+h5cBPQnPHPxy8R/9i3DwY++v1CZzTNtOpCjbHGKZv3IkACW2Pg55x52Z2eJGAqDYEI+a+wRs0rs3Pp3q5pevCKkTKijMBMO/Hi/SD2aFcdtlx6KktrlpHC9ds1t/J5Yrmpes332EOuVBPeQRhQ7tobs+sDyNRiWXZ4kAgJSuS5VK+xdW1cZWEs3j3xmR8t9pMJrjes9bWkDNyEgOsux/pKqdz52z6GqNFu4eH7QOVABNKMaPutDLlrRjtVgoPB4eF60vUOvQmtSgrEr/UkySXk7lmQa/ffOw63v2vZlLRu5yVWl5ER6OOhw16RSQuIKzEfp6b20XH3fbiEXLlh7bqugntdZ2IGHfIsxkXUYl6pWSadGYlnMxEfvw3T59SxmIdG7AxdtxrDdFAdWmz5KAzHx6IDHZSBWbvMrFSadZ4BC4g22s2i8=
+  on:
+    tags: true
