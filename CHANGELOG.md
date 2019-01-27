@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 ### Deprecated
 ### Removed
+- Removed `npm link` command from build script; dependent packages should use `npm install` to install the pacakge [e7f3c4d](https://github.com/rcieoktgieke/react-ring-spinner/commit/e7f3c4d34371f15e4c327fb9272812681aba460c)
 ### Fixed
 ### Security
 
