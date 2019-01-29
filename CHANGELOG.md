@@ -6,13 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- NPM install command to README [2b14ea9](https://github.com/rcieoktgieke/react-ring-spinner/commit/2b14ea9602517b4cd26a01ea520af08de638020b)
 ### Changed
 ### Deprecated
 ### Removed
-- Removed `npm link` command from build script; dependent packages should use `npm install` to install the pacakge [e7f3c4d](https://github.com/rcieoktgieke/react-ring-spinner/commit/e7f3c4d34371f15e4c327fb9272812681aba460c)
 ### Fixed
 ### Security
+
+## [0.1.2] - 2019-01-28
+### Added
+- NPM install command to README [2b14ea9](https://github.com/rcieoktgieke/react-ring-spinner/commit/2b14ea9602517b4cd26a01ea520af08de638020b)
+### Removed
+- Removed `npm link` command from build script; dependent packages should use `npm install` to install the pacakge [e7f3c4d](https://github.com/rcieoktgieke/react-ring-spinner/commit/e7f3c4d34371f15e4c327fb9272812681aba460c)
 
 ## [0.1.1] - 2019-01-21
 ### Fixed
