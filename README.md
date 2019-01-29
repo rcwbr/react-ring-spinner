@@ -31,7 +31,7 @@
 ## Install
 
 ``` Bash
-TODO: add npm install command after published
+npm install react-ring-spinner
 ```
 
 ## Usage
