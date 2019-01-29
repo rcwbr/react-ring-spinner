@@ -1,6 +1,6 @@
 {
   "name": "react-ring-spinner",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React component to display a SVG ring spinner",
   "main": "build/index.js",
   "files": [
