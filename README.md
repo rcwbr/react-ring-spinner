@@ -66,7 +66,7 @@ See the [API](#api) for documentation of all properties.
 
 ## Development
 
-To set up to lint this package with [Atom](atom editor python):
+To set up to lint this package with [Atom](https://atom.io):
 * Install the `linter-eslint` plugin, and its dependencies.
 * Open your Atom `config.cson` by pressing `cmd + shift + p` and typing 'config'
 * Under `linter-eslint`, add `autofix: fixOnSave: true`
