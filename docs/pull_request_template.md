@@ -6,4 +6,4 @@
 -->
 
 Do not merge this PR until the following conditions are met:
-- [ ] `CHANGELOG.md` has been updated to include these changes, compliant with the [Keep a Changelog standard](http://keepachangelog.com).
+- [ ] `CHANGELOG.md` has been updated to include significant changes, compliant with the [Keep a Changelog standard](http://keepachangelog.com).
