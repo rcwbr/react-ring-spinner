@@ -10,8 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Deprecated
 ### Removed
 ### Fixed
-- Skip cleanup for Travis deploy to keep build folder from npm build for npm publish [2691343](https://github.com/rcieoktgieke/react-ring-spinner/commit/2691343059e150d2dd7335a5c5efc184a2736ce0)
 ### Security
+
+## [0.1.3] - 2019-02-03
+### Fixed
+- Skip cleanup for Travis deploy to keep build folder from npm build for npm publish [2691343](https://github.com/rcieoktgieke/react-ring-spinner/commit/2691343059e150d2dd7335a5c5efc184a2736ce0)
 
 ## [0.1.2] - 2019-01-28
 ### Added
