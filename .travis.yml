@@ -9,6 +9,7 @@ script:
 - npm run test
 - npm run coverage
 deploy:
+  skip_cleanup: true
   provider: npm
   email: npm@weber.lol
   api_key:
