@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/react-ring-spinner.svg)](https://www.npmjs.com/package/react-ring-spinner)
 [![npm downloads](https://img.shields.io/npm/dt/react-ring-spinner.svg)](https://www.npmjs.com/package/react-ring-spinner)
 [![Build Status](https://travis-ci.org/rcwbr/react-ring-spinner.svg?branch=master)](https://travis-ci.org/rcwbr/react-ring-spinner)
-[![Coverage Status](https://coveralls.io/repos/github/rcwbr/react-ring-spinner/badge.svg?branch=feature%2Ftravis_coveralls_coverage)](https://coveralls.io/github/rcwbr/react-ring-spinner?branch=feature%2Ftravis_coveralls_coverage)
+[![Coverage Status](https://coveralls.io/repos/github/rcwbr/react-ring-spinner/badge.svg?branch=master)](https://coveralls.io/github/rcwbr/react-ring-spinner?branch=master)
 [![dependencies Status](https://david-dm.org/rcwbr/react-ring-spinner/status.svg)](https://david-dm.org/rcwbr/react-ring-spinner)
 [![devDependencies Status](https://david-dm.org/rcwbr/react-ring-spinner/dev-status.svg)](https://david-dm.org/rcwbr/react-ring-spinner?type=dev)
 [![Known Vulnerabilities](https://snyk.io/test/github/rcwbr/react-ring-spinner/badge.svg)](https://snyk.io/test/github/rcwbr/react-ring-spinner)
