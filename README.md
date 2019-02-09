@@ -2,20 +2,20 @@
 
 [![npm version](https://img.shields.io/npm/v/react-ring-spinner.svg)](https://www.npmjs.com/package/react-ring-spinner)
 [![npm downloads](https://img.shields.io/npm/dt/react-ring-spinner.svg)](https://www.npmjs.com/package/react-ring-spinner)
-[![Build Status](https://travis-ci.org/rcieoktgieke/react-ring-spinner.svg?branch=master)](https://travis-ci.org/rcieoktgieke/react-ring-spinner)
-[![Coverage Status](https://coveralls.io/repos/github/rcieoktgieke/react-ring-spinner/badge.svg?branch=feature%2Ftravis_coveralls_coverage)](https://coveralls.io/github/rcieoktgieke/react-ring-spinner?branch=feature%2Ftravis_coveralls_coverage)
-[![dependencies Status](https://david-dm.org/rcieoktgieke/react-ring-spinner/status.svg)](https://david-dm.org/rcieoktgieke/react-ring-spinner)
-[![devDependencies Status](https://david-dm.org/rcieoktgieke/react-ring-spinner/dev-status.svg)](https://david-dm.org/rcieoktgieke/react-ring-spinner?type=dev)
-[![Known Vulnerabilities](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner/badge.svg)](https://snyk.io/test/github/rcieoktgieke/react-ring-spinner)
-[![License: MIT](https://img.shields.io/github/license/rcieoktgieke/react-ring-spinner.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/rcwbr/react-ring-spinner.svg?branch=master)](https://travis-ci.org/rcwbr/react-ring-spinner)
+[![Coverage Status](https://coveralls.io/repos/github/rcwbr/react-ring-spinner/badge.svg?branch=feature%2Ftravis_coveralls_coverage)](https://coveralls.io/github/rcwbr/react-ring-spinner?branch=feature%2Ftravis_coveralls_coverage)
+[![dependencies Status](https://david-dm.org/rcwbr/react-ring-spinner/status.svg)](https://david-dm.org/rcwbr/react-ring-spinner)
+[![devDependencies Status](https://david-dm.org/rcwbr/react-ring-spinner/dev-status.svg)](https://david-dm.org/rcwbr/react-ring-spinner?type=dev)
+[![Known Vulnerabilities](https://snyk.io/test/github/rcwbr/react-ring-spinner/badge.svg)](https://snyk.io/test/github/rcwbr/react-ring-spinner)
+[![License: MIT](https://img.shields.io/github/license/rcwbr/react-ring-spinner.svg)](https://opensource.org/licenses/MIT)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
 
-<img src="https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/master/docs/example-spinner.gif" title="Example RingSpinner GIF" width="300" height="300" />
+<img src="https://raw.githubusercontent.com/rcwbr/react-ring-spinner/master/docs/example-spinner.gif" title="Example RingSpinner GIF" width="300" height="300" />
 
 > The `react-ring-spinner` package defines a RingSpinner component, which renders an SVG circle loading spinner, animated using SVG animations.
 
-`react-ring-spinner` is the default spinner used by [`react-element-placeholder`](https://github.com/rcieoktgieke/react-element-placeholder) Placeholder components.
+`react-ring-spinner` is the default spinner used by [`react-element-placeholder`](https://github.com/rcwbr/react-element-placeholder) Placeholder components.
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ npm install react-ring-spinner
 
 ## Usage
 
-See [react-element-placeholder Placeholder component](https://github.com/rcieoktgieke/react-element-placeholder/blob/master/src/components/Placeholder/index.jsx) for a usage example.
+See [react-element-placeholder Placeholder component](https://github.com/rcwbr/react-element-placeholder/blob/master/src/components/Placeholder/index.jsx) for a usage example.
 
 ### Default usage:
 ``` JS
@@ -48,7 +48,7 @@ render () {
 ```
 Which renders this:
 
-<img src="https://raw.githubusercontent.com/rcieoktgieke/react-ring-spinner/master/docs/example-spinner.gif" title="Example RingSpinner GIF" width="200" height="200" />
+<img src="https://raw.githubusercontent.com/rcwbr/react-ring-spinner/master/docs/example-spinner.gif" title="Example RingSpinner GIF" width="200" height="200" />
 
 ### Usage with property overrides:
 ``` JS
@@ -142,7 +142,7 @@ For more on SVG animations, see [A Guide to SVG Animations on CSS Tricks]((https
 
 ## Maintainers
 
-[@rcieoktgieke](https://github.com/rcieoktgieke)
+[@rcwbr](https://github.com/rcwbr)
 
 ## Contribute
 

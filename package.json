@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rcieoktgieke/react-ring-spinner.git"
+    "url": "git+https://github.com/rcwbr/react-ring-spinner.git"
   },
   "author": "Eric Weber",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rcieoktgieke/react-ring-spinner/issues"
+    "url": "https://github.com/rcwbr/react-ring-spinner/issues"
   },
-  "homepage": "https://github.com/rcieoktgieke/react-ring-spinner#readme",
+  "homepage": "https://github.com/rcwbr/react-ring-spinner#readme",
   "dependencies": {
     "react": "^16.4.1"
   },
