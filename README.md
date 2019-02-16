@@ -42,9 +42,10 @@ See [react-element-placeholder Placeholder component](https://github.com/rcwbr/r
 ``` JS
 import RingSpinner from 'react-ring-spinner'
 
-render () {
-  return <RingSpinner />
-}
+ReactDOM.render(
+  <RingSpinner />,
+  document.getElementById('app')
+)
 ```
 Which renders this:
 
@@ -53,14 +54,14 @@ Which renders this:
 ### Usage with property overrides:
 ``` JS
 import RingSpinner from 'react-ring-spinner'
-
-render () {
-  return <RingSpinner
+ReactDOM.render(
+  <RingSpinner
     // option={value}
     // option={value}
     // ...
-  />
-}
+  />,
+  document.getElementById('app')
+)
 ```
 See the [API](#api) for documentation of all properties.
 
@@ -83,8 +84,8 @@ Example usage with all properties overridden. The values shown are the defaults.
 ``` JS
 import RingSpinner from 'react-ring-spinner'
 
-render () {
-  return <RingSpinner
+ReactDOM.render(
+  <RingSpinner
     backgroundColor={'rgba(0, 0, 0, 0.9)'}
     duration={'1s'}
     keySplinesIn={'0.6 0 0.2 1'}
@@ -97,8 +98,9 @@ render () {
     ringsRadiusMax={45}
     ringsRadiusMin={30}
     ringsStrokeWidth={'3px'}
-  />
-}
+  />,
+  document.getElementById('app')
+)
 ```
 
 This returns an SVG element with a background color and two unfilled circle elements. The circle elements have animations for both their radii and opacities. The same animations apply to both rings, but the rings start from opposite states (both in radius and opacity) such that their animations remain in antiphase.
