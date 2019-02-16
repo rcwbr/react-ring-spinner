@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Deprecated
 ### Removed
 ### Fixed
+- Make React dependency a peer dependency [5757b09](https://github.com/rcwbr/react-ring-spinner/commit/5757b0939f959a827217d889bdf8dc4fc206ae76)
 ### Security
 
 ## [0.1.4] - 2019-02-09
