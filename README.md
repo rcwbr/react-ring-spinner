@@ -140,7 +140,7 @@ Note that the second curve returns the attribute to its start value. Vertically 
 
 ![image beziers-by-attributes](./docs/beziers-by-attributes.png)
 
-For more on SVG animations, see [A Guide to SVG Animations on CSS Tricks]((https://css-tricks.com/guide-svg-animations-smil/), especially the [calcMode and keySplines section](https://css-tricks.com/guide-svg-animations-smil/#article-header-id-12) for details of cubic B&eacute;zier animation timing.
+For more on SVG animations, see [A Guide to SVG Animations on CSS Tricks](https://css-tricks.com/guide-svg-animations-smil/), especially the [calcMode and keySplines section](https://css-tricks.com/guide-svg-animations-smil/#article-header-id-12) for details of cubic B&eacute;zier animation timing.
 
 ## Maintainers
 
