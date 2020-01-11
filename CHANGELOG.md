@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 ### Fixed
 - Make React dependency a peer dependency [5757b09](https://github.com/rcwbr/react-ring-spinner/commit/5757b0939f959a827217d889bdf8dc4fc206ae76)
+- Fix syntax in README [82c447f](https://github.com/rcwbr/react-ring-spinner/commit/82c447f72f3a026afc7e98845f8c4effb0a4a809)
 ### Security
 
 ## [0.1.4] - 2019-02-09
