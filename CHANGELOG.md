@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
-## [0.1.4] - 2019-02-09
+## [0.1.5] - 2020-03-29
 ### Changed
 - Update copyright years [fe7212f](https://github.com/rcwbr/react-ring-spinner/commit/fe7212f8ba14b8ab577a74cf83d3fcb118bc86c9)
 ### Fixed
