@@ -7,13 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 ### Changed
-- Update copyright years [fe7212f](https://github.com/rcwbr/react-ring-spinner/commit/fe7212f8ba14b8ab577a74cf83d3fcb118bc86c9)
 ### Deprecated
 ### Removed
 ### Fixed
+### Security
+
+## [0.1.5] - 2020-03-29
+### Changed
+- Update copyright years [fe7212f](https://github.com/rcwbr/react-ring-spinner/commit/fe7212f8ba14b8ab577a74cf83d3fcb118bc86c9)
+### Fixed
 - Make React dependency a peer dependency [5757b09](https://github.com/rcwbr/react-ring-spinner/commit/5757b0939f959a827217d889bdf8dc4fc206ae76)
 - Fix syntax in README [82c447f](https://github.com/rcwbr/react-ring-spinner/commit/82c447f72f3a026afc7e98845f8c4effb0a4a809)
-### Security
 
 ## [0.1.4] - 2019-02-09
 ### Changed
