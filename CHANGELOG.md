@@ -7,12 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 ### Changed
-- Update copyright years [1d1f523](https://github.com/rcwbr/react-ring-spinner/commit/1d1f523d98959b4a5a8da555bb3b6cdd9e0e1ddf)
 ### Deprecated
 ### Removed
 ### Fixed
 ### Security
 
+## [0.1.6] - 2021-01-01
+### Changed
+- Update copyright years [1d1f523](https://github.com/rcwbr/react-ring-spinner/commit/1d1f523d98959b4a5a8da555bb3b6cdd9e0e1ddf)
 ## [0.1.5] - 2020-03-29
 ### Changed
 - Update copyright years [fe7212f](https://github.com/rcwbr/react-ring-spinner/commit/fe7212f8ba14b8ab577a74cf83d3fcb118bc86c9)
